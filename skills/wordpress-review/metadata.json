@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "organization": "BeforeMerge",
+  "date": "February 2026",
+  "abstract": "Comprehensive code review knowledge base for WordPress plugin and theme development. Contains rules across security, performance, architecture, and quality categories. Each rule includes detailed explanations, real-world examples comparing incorrect vs. correct PHP implementations, impact ratings, and formal weakness mappings (CWE/OWASP) to guide both AI agents and human reviewers.",
+  "references": [
+    "https://developer.wordpress.org/",
+    "https://developer.wordpress.org/apis/security/",
+    "https://owasp.org/www-project-top-ten/",
+    "https://cwe.mitre.org/",
+    "https://beforemerge.dev"
+  ]
+}

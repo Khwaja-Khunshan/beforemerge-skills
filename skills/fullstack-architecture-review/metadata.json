@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "organization": "BeforeMerge",
+  "date": "March 2026",
+  "abstract": "Code review rules for DRY/SOLID layered architecture in fullstack TypeScript applications. Covers dependency direction, service/repository patterns, factory injection, domain entities, and code quality patterns. Framework-agnostic principles with Next.js+Supabase examples.",
+  "references": [
+    "https://en.wikipedia.org/wiki/SOLID",
+    "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+    "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+    "https://owasp.org/www-project-top-ten/",
+    "https://beforemerge.dev"
+  ]
+}

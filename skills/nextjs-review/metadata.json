@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "organization": "BeforeMerge",
+  "date": "February 2026",
+  "abstract": "Comprehensive code review knowledge base for Next.js, React, and TypeScript applications. Contains rules across security, performance, architecture, and quality categories. Each rule includes detailed explanations, real-world examples comparing incorrect vs. correct implementations, impact ratings, and formal weakness mappings (CWE/OWASP) to guide both AI agents and human reviewers.",
+  "references": [
+    "https://nextjs.org/docs",
+    "https://react.dev",
+    "https://owasp.org/www-project-top-ten/",
+    "https://cwe.mitre.org/",
+    "https://beforemerge.dev"
+  ]
+}

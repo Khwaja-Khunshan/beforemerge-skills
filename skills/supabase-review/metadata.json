@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "organization": "BeforeMerge",
+  "date": "March 2026",
+  "abstract": "Code review rules for Supabase applications. Covers RLS security, auth patterns, query performance, migration workflows, and type safety. Each rule includes incorrect/correct examples, CWE/OWASP mappings, and detection hints.",
+  "references": [
+    "https://supabase.com/docs",
+    "https://supabase.com/docs/guides/auth",
+    "https://supabase.com/docs/guides/database/postgres/row-level-security",
+    "https://owasp.org/www-project-top-ten/",
+    "https://beforemerge.dev"
+  ]
+}
