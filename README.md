@@ -23,6 +23,7 @@ Install as an Agent Skill (works with Claude Code, Cursor, Codex, OpenCode):
 ```bash
 # Pick a skill
 npx skills add BeforeMerge/beforemerge-skills --skill nextjs-review
+npx skills add BeforeMerge/beforemerge-skills --skill react-review
 npx skills add BeforeMerge/beforemerge-skills --skill supabase-review
 npx skills add BeforeMerge/beforemerge-skills --skill fullstack-architecture-review
 npx skills add BeforeMerge/beforemerge-skills --skill wordpress-review
@@ -35,17 +36,19 @@ Or browse the rules directly in `skills/*/rules/`.
 | Skill | Rules | Focus | Status |
 |-------|-------|-------|--------|
 | [`nextjs-review`](skills/nextjs-review/) | 31 | Security (XSS, CSRF, auth), performance (RSC, dynamic imports, closures), architecture | ✅ Ready |
+| [`react-review`](skills/react-review/) | 16 | XSS, prototype pollution, re-renders, virtualization, composition, hooks | ✅ Ready |
 | [`supabase-review`](skills/supabase-review/) | 20 | RLS security, auth patterns, query performance, migrations, type safety | ✅ Ready |
 | [`fullstack-architecture-review`](skills/fullstack-architecture-review/) | 19 | DRY/SOLID, layered architecture, service/repository patterns, factory DI | ✅ Ready |
 | [`wordpress-review`](skills/wordpress-review/) | 18 | SQL injection, XSS, CSRF nonces, query optimization, caching | ✅ Ready |
 
-**88 rules** total across 4 skills.
+**104 rules** total across 5 skills.
 
 ## Structure
 
 ```
 skills/
 ├── nextjs-review/                      # Next.js / React / TypeScript
+├── react-review/                       # React (framework-agnostic)
 ├── supabase-review/                    # Supabase / PostgreSQL / RLS
 ├── fullstack-architecture-review/      # DRY / SOLID / Clean Architecture
 └── wordpress-review/                   # WordPress / PHP
